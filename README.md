@@ -28,15 +28,15 @@ Table 'clonotypes.tsv' contains information about clonotypes that form significa
 * D -- number of neighbours with the same VJ combination. A neighbour is a sequence that differs by no more than one amino acid substitution. 
 * VJ_n_total -- number of sequences with the same VJ combination in the sample 
 * Pgen -- generation probability of the sequence
-*Pgen_sum -- sum of generation probabilities of all possible neighbours (preliminary result required for further calculations)
-*Pgen_sum_corr -- corrected sum of generation probabilities of all possible neighbours 
-*Pgen_by_VJ -- сonditional probability. Sum of probabilities to be generated with given VJ combination
-*p_val -- p-value under null hypothesis that number of sequence's neighbours is not more than in the random model
-*p_adjust -- p-value with multiple testing correction
-*cluster_id -- unique number for every connected part of the graph regardless VJ combination 
-*intersections -- names of files in which that sequence also occurred. Title includes peptide number and T cell subset. 
-*cluster_VJ -- combination of cluster_id, V and J genes
-*cluster_total_freq -- sum of frequency of all clonotypes from the cluster
-*peptide -- peptide id
-*type -- T cell subset
-*replica
+* Pgen_sum -- sum of generation probabilities of all possible neighbours (preliminary result required for further calculations)
+* Pgen_sum_corr -- corrected sum of generation probabilities of all possible neighbours 
+* Pgen_by_VJ -- сonditional probability. Sum of probabilities to be generated with given VJ combination
+* p_val -- p-value under null hypothesis that number of sequence's neighbours is not more than in the random model
+* p_adjust -- p-value with multiple testing correction
+* cluster_id -- unique number for every connected part of the graph regardless VJ combination 
+* intersections -- names of files in which that sequence also occurred. Title includes peptide number and T cell subset. 
+* cluster_VJ -- combination of cluster_id, V and J genes
+* cluster_total_freq -- sum of frequency of all clonotypes from the cluster
+* peptide -- peptide id
+* type -- T cell subset
+* replica -- There are no replicas for the peptide -- 0; The first experimental group for the peptide -- 1, The second experimental group for the peptide -- 2
